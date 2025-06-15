@@ -5,6 +5,13 @@ This project implements a simple RESTful web service using **Python Flask** that
 The service is designed to be **safe, resilient**, and handles a variety of inputs gracefully. A **unit test suite** is also included to verify the implementation logic.
 
 ---
+# Create and activate virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate      # On macOS/Linux
+venv\Scripts\activate         # On Windows
+
+# Install dependencies
+pip install -r requirements.txt
 
 ## Setup
 ```bash
