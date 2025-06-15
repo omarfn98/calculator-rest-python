@@ -6,12 +6,16 @@ The service is designed to be **safe, resilient**, and handles a variety of inpu
 
 ---
 # Create and activate virtual environment (recommended)
+```bash
 python -m venv venv
 source venv/bin/activate      # On macOS/Linux
 venv\Scripts\activate         # On Windows
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ## Setup
 ```bash
